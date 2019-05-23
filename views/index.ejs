@@ -1,0 +1,13 @@
+<% include partials/header %>
+<% if(!currentUser){%>
+<a href="/register">Register</a><br>
+<a href="/login">Login</a><br>
+<% }%>
+<% if(currentUser){%>
+<a href="/logout">Logout</a><br>
+
+<a href="/pong"> Click to go to Pong</a><br>
+<a href="/face"> Click to Train</a>
+<%}%>
+
+<% include partials/footer%>
