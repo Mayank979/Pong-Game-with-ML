@@ -14,7 +14,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-session": "^1.16.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.5.0",
     "nodemon": "^1.18.10",
     "socketio": "^1.0.0"
